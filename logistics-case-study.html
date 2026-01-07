@@ -6,100 +6,73 @@
     <title>Logistics Platform Case Study | Adewale Adekunle</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .prose h2 { @apply text-2xl font-bold mt-12 mb-4 text-slate-900; }
-        .prose p { @apply text-slate-600 leading-relaxed mb-6 text-lg; }
-    </style>
+    <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
     <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="text-sm font-bold tracking-tight hover:text-indigo-600 transition">← BACK TO PORTFOLIO</a>
-            <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Case Study: Logistics & E-Commerce</span>
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Case Study: Product Development</span>
         </div>
     </nav>
 
     <header class="pt-32 pb-16 px-6 max-w-4xl mx-auto">
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-            Building a "0 to 1" Logistics Engine for Seamless Dispatch
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-slate-900">
+            Last-Mile Dispatch: Building an Automated Courier Engine
         </h1>
-        
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-8 border-y border-slate-200">
-            <div>
-                <p class="text-xs font-bold text-slate-400 uppercase">Role</p>
-                <p class="font-semibold">Product Lead</p>
-            </div>
-            <div>
-                <p class="text-xs font-bold text-slate-400 uppercase">Pilot Result</p>
-                <p class="font-semibold text-emerald-600">45% Error Reduction</p>
-            </div>
-            <div>
-                <p class="text-xs font-bold text-slate-400 uppercase">Phase</p>
-                <p class="font-semibold">Ready for Launch</p>
-            </div>
-            <div>
-                <p class="text-xs font-bold text-slate-400 uppercase">Market</p>
-                <p class="font-semibold">SME & Last-Mile</p>
-            </div>
+            <div><p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Development</p><p class="font-bold text-emerald-600">Agile/Scrum</p></div>
+            <div><p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Feature Delivery</p><p class="font-bold text-indigo-600">100% On-Time</p></div>
+            <div><p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Error Reduction</p><p class="font-bold text-slate-800">45% Decrease</p></div>
+            <div><p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Focus</p><p class="font-bold text-slate-800">0 to 1 Launch</p></div>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-6 pb-24 prose">
-        
+    <main class="max-w-4xl mx-auto px-6 pb-24 prose prose-slate lg:prose-lg">
         <section>
-            <h2>The Chaos of "Manual" Dispatch</h2>
-            <p>
-                Dispatch managers and small businesses were operating in a "Black Box." Deliveries were managed via <strong>spreadsheets and WhatsApp</strong>, leading to lost packages, incorrect cost estimations, and zero real-time visibility for the end customer.
-            </p>
-            <p>
-                The challenge was to build an end-to-end system that automated the three pillars of last-mile logistics: <strong>Scheduling, Estimation, and Tracking.</strong>
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">The Problem: Fragmentation in Delivery Tracking</h2>
+            <p class="text-slate-600 leading-relaxed mb-6">
+                Manual scheduling and tracking in courier services often lead to a 45% higher error rate in delivery updates. As the Product Lead, I was tasked with digitizing this lifecycle to provide real-time visibility for dispatch managers and customers.
             </p>
         </section>
 
-        <div class="bg-slate-900 rounded-2xl p-8 my-12 text-white shadow-xl shadow-slate-200">
-            <h4 class="text-sm font-bold uppercase tracking-widest mb-4 text-indigo-400">The Core Solution</h4>
-            <p class="text-2xl font-medium leading-snug">
-                An integrated Web & Mobile ecosystem that centralizes the order lifecycle, providing drivers with optimized routes and managers with a real-time "Control Tower" view.
+        <section class="bg-slate-900 text-white p-8 rounded-2xl my-10 shadow-xl">
+            <h3 class="text-indigo-400 text-sm font-bold uppercase mb-2">Product Execution</h3>
+            <p class="text-xl">
+                I led the end-to- charcoal end development from user story mapping to launch, maintaining 100% on-time feature delivery across all Agile sprints.
             </p>
-        </div>
+        </section>
 
         <section>
-            <h2>The Discovery: Mapping the Journey</h2>
-            <p>
-                To build this from scratch, I mapped the entire logistics journey from the moment an order is placed to the final "Proof of Delivery" (POD).
-            </p>
-            
-            <ul class="space-y-4 mb-8">
-                <li class="flex gap-3">
-                    <span class="text-indigo-600 font-bold">01.</span>
-                    <span><strong>User Research:</strong> Interviewed 15+ dispatchers to find that "Cost Estimation" was their biggest point of friction and revenue leakage.</span>
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">The PM Approach</h2>
+            <ul class="space-y-4 mb-8 list-none p-0">
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">1</span>
+                    <span><strong>User Story Mapping:</strong> Translated complex dispatch workflows into actionable user stories and acceptance criteria.</span>
                 </li>
-                <li class="flex gap-3">
-                    <span class="text-indigo-600 font-bold">02.</span>
-                    <span><strong>Feature Prioritization:</strong> Using the <strong>MoSCoW method</strong>, I prioritized Real-time Tracking and Automated Billing over secondary features like "In-app Chat" for the MVP.</span>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">2</span>
+                    <span><strong>End-to-End Delivery:</strong> Coordinated with engineering and design to manage the full product development lifecycle.</span>
                 </li>
-                <li class="flex gap-3">
-                    <span class="text-indigo-600 font-bold">03.</span>
-                    <span><strong>Tech Specs:</strong> Defined the logic for the "Cost Estimation Engine" based on distance (Google Maps API), weight, and vehicle type.</span>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">3</span>
+                    <span><strong>QA Testing & Validation:</strong> Led manual QA testing sessions to ensure the platform met all functional requirements before the pilot launch.</span>
                 </li>
             </ul>
         </section>
 
-        <section class="bg-indigo-50 -mx-6 px-6 py-10 md:rounded-2xl border border-indigo-100">
-            <h3 class="text-xl font-bold mb-4 text-indigo-900">Solving the "Estimation" Logic</h3>
-            <p class="text-base text-indigo-800">
-                A critical technical hurdle was preventing revenue loss from inaccurate pricing. I collaborated with engineering to build a <strong>dynamic pricing algorithm</strong>. We integrated weight-class triggers and distance-based tolling. During pilot testing, this automation recovered 12% in "hidden costs" that were previously missed by manual calculations.
+        <section class="border-l-4 border-indigo-500 pl-6 my-12 bg-indigo-50 py-4 pr-4">
+            <h3 class="text-xl font-bold mb-2 text-indigo-900">Technical Documentation</h3>
+            <p class="text-slate-700 italic">
+                By producing high-quality PRDs and TRDs, I ensured clear communication between technical and non-technical stakeholders, minimizing development roadblocks.
             </p>
         </section>
+    </main>
 
-        <section>
-            <h2>Validation & Pilot Impact</h2>
-            <p>
-                In our controlled pilot phase with three logistics partners, the platform demonstrated immediate operational improvements:
-            </p>
-            <div class="grid md:grid-cols-2 gap-6 my-8">
-                <div class="border border-slate-200 bg-white p-6 rounded-xl">
-                    <p class="text-3xl font-bold text-indigo-600 mb-1">45%</p>
-                    <p class="text-sm text-slate-5
+    <footer class="bg-slate-900 py-16 px-6 text-center text-white">
+        <p class="text-slate-400 text-sm uppercase tracking-widest mb-4">Explore More</p>
+        <a href="flexi-rent-case-study.html" class="text-2xl font-bold hover:text-indigo-400 transition">View Flexi-Rent Growth Study →</a>
+    </footer>
+</body>
+</html>
